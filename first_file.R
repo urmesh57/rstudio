@@ -9,7 +9,10 @@ hello_string
 a= TRUE
 a
 ##Read csv
-employee_1 <- read_xlsx("C:\\Users\\HP\\Desktop\\New folder\\datasets\\employee_1.xlsx")
+employee_1 <- read_xlsx("C:\\Users\\urmen\\OneDrive\\Desktop\\dataasets\\Employee_details.xlsx")
 employee_1;
-
-x <- employee_1[employee_1$Sex == "F"]
+View(employee_1)
+X=100
+x <- employee_1[employee_1$Dept=='HR',]
+x
+ 
