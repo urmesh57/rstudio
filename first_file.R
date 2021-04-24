@@ -90,10 +90,14 @@ class(list1) #list
 print(list1)
 typeof(list1)#integer
 
-list1[1]
+list1[[3]]
 str(list1)
 list2 <- list(transport="Bus",count=100,rate=40)
-list1 <- list(fruit="Strawberries",count=100,rate=50.5,similar=list2)
+list1 <- list(fruit="Strawberries",count=100,rate=50.5,list2)
 
 list1[[4]]
-      
+
+list1[[1]] 
+print(list1)
+
+is.list(list1)
