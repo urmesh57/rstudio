@@ -101,3 +101,32 @@ list1[[1]]
 print(list1)
 
 is.list(list1)
+list1$fruit
+
+
+matrix(1:6, nrow=2,ncol=3, byrow=TRUE)
+n <- matrix(1:6, nrow=2,ncol=3, byrow=TRUE)
+print(n)
+#cbind(n,4:11)
+rbind(n,7:9)
+print(n)
+
+rownames(n) <- c("row1","row2")
+colnames(n) <- c("col1","col2","col3")
+
+sort(n$col2)
+
+
+##dataframesort()
+
+name <- c("hari","shyam","raju")
+age <- c(12,14,15)
+weight <- c(30.5,35.5,40)
+
+df <- data.frame(name,age,weight)
+df
+sort(df$age)
+df(ranks,)
+df[order(df$age,decreasing = FALSE),]
+
+
